@@ -1,0 +1,13 @@
+mybatis:
+  # model的包
+  type-aliases-package: com.lzcoke.mapper
+  configuration:
+    map-underscore-to-camel-case: true
+
+# 打印sql
+logging:
+  level:
+    com.lzcke.mapper: debug
+spring:
+  profiles:
+    active: dev
