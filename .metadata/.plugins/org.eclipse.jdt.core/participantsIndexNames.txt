@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+E:\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1399258476.index
+\MyJavaWeb\src

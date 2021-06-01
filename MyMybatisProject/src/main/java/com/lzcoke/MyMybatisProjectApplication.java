@@ -1,0 +1,15 @@
+package com.lzcoke;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.lzcoke.mapper")
+public class MyMybatisProjectApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MyMybatisProjectApplication.class, args);
+    }
+
+}
